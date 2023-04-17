@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Online Class</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- ICON SCOUT CDN -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+  <!-- Google Fonts (Montserrat) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- SWIPER JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <script src="https://kit.fontawesome.com/d026e0e5e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="container nav__container">
+      <a href="index.html"><h4>EGATOR</h4></a>
+      <ul class="nav__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="open-menu-btn" title="open-btn">
+        <svg id="open-menu-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+          <g data-name="Layer 2">
+            <g data-name="menu">
+              <rect width="18" height="2" x="3" y="11" rx=".95" ry=".95"/>
+              <rect width="18" height="2" x="3" y="16" rx=".95" ry=".95"/>
+              <rect width="18" height="2" x="3" y="6" rx=".95" ry=".95"/>
+            </g>
+          </g>
+        </svg>
+      </button>
+
+      <button id="close-menu-btn" title="close-btn">
+        <svg id="close-menu-btn-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+          <path d="M38 12.83 35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z"/>
+          <path fill="none" d="M0 0h48v48H0z"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+  <!-- END NAVBAR -->
+
+
+  <!-- HEADER SECTION -->
+  <header>
+    <div class="container header__container">
+      <div class="header__left">
+        <h1>Grow your skills to advance your career path</h1>
+        <p>
+          Where the borrower(s) fail to honour his/her obligation on due date,
+          the lender can offset the outstanding loan amount with the accrued
+          interest charges from any funds that the borrower may have in Nigerian
+          bank using his/her BVN number and through global standing instruction (GSI).
+        </p>
+        <a href="courses.html" class="btn btn-primary">Get Started</a>
+      </div>
+      <div class="header__right">
+        <div class="header__right--image">
+          <img src="./images/header.svg" alt="header image" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- END HEADER SECTION -->
+
+
+  <!-- CATEGORIES SECTIONS -->
+  <section class="categories">
+    <div class="container categories__container">
+      <div class="categories__left">
+        <h1>Categories</h1>
+        <p>
+          Where the borrower(s) fails to honour his/her obligation on due date,
+          the lender can offset the outstanding loan amount with the accrued interest
+          charges from any funds that the borrower may have n Nigerian bank using his/her
+          BVN number and through Global Standing Instruction (GSI). Where the Borrower defaults
+          REMFB reserves the right to offset the outstanding Loan amount through setting up
+          an irrevocable standing order with your BVN on APPZONE RECOVA.
+        </p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+      <div class="categories__right">
+        <article class="category">
+          <span class="category__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9,9,0,0,1,12,21ZM14,7V6a1,1,0,0,0-2,0V7H11V6A1,1,0,0,0,9,6V7H8A1,1,0,0,0,8,9H9v6H8a1,1,0,0,0,0,2H9v1a1,1,0,0,0,2,0V17h1v1a1,1,0,0,0,2,0V17a3,3,0,0,0,3-3,3,3,0,0,0-.77-2A3,3,0,0,0,17,10,3,3,0,0,0,14,7Zm0,8H11V13h3a1,1,0,0,1,0,2Zm0-4H11V9h3a1,1,0,0,1,0,2Z"/>
+            </svg>
+          </span>
+          <h5>Blockchain</h5>
+          <p>Where the borrower(s) fail to honour his/her obligation on due date,</p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9,9,0,0,1,12,21ZM14,7V6a1,1,0,0,0-2,0V7H11V6A1,1,0,0,0,9,6V7H8A1,1,0,0,0,8,9H9v6H8a1,1,0,0,0,0,2H9v1a1,1,0,0,0,2,0V17h1v1a1,1,0,0,0,2,0V17a3,3,0,0,0,3-3,3,3,0,0,0-.77-2A3,3,0,0,0,17,10,3,3,0,0,0,14,7Zm0,8H11V13h3a1,1,0,0,1,0,2Zm0-4H11V9h3a1,1,0,0,1,0,2Z"/>
+            </svg>
+          </span>
+          <h5>Graphic Design</h5>
+          <p>Where the borrower(s) fail to honour his/her obligation on due date,</p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9,9,0,0,1,12,21ZM14,7V6a1,1,0,0,0-2,0V7H11V6A1,1,0,0,0,9,6V7H8A1,1,0,0,0,8,9H9v6H8a1,1,0,0,0,0,2H9v1a1,1,0,0,0,2,0V17h1v1a1,1,0,0,0,2,0V17a3,3,0,0,0,3-3,3,3,0,0,0-.77-2A3,3,0,0,0,17,10,3,3,0,0,0,14,7Zm0,8H11V13h3a1,1,0,0,1,0,2Zm0-4H11V9h3a1,1,0,0,1,0,2Z"/>
+            </svg>
+          </span>
+          <h5>Finance</h5>
+          <p>Where the borrower(s) fail to honour his/her obligation on due date,</p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9,9,0,0,1,12,21ZM14,7V6a1,1,0,0,0-2,0V7H11V6A1,1,0,0,0,9,6V7H8A1,1,0,0,0,8,9H9v6H8a1,1,0,0,0,0,2H9v1a1,1,0,0,0,2,0V17h1v1a1,1,0,0,0,2,0V17a3,3,0,0,0,3-3,3,3,0,0,0-.77-2A3,3,0,0,0,17,10,3,3,0,0,0,14,7Zm0,8H11V13h3a1,1,0,0,1,0,2Zm0-4H11V9h3a1,1,0,0,1,0,2Z"/>
+            </svg>
+          </span>
+          <h5>Marketing</h5>
+          <p>Where the borrower(s) fail to honour his/her obligation on due date,</p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9,9,0,0,1,12,21ZM14,7V6a1,1,0,0,0-2,0V7H11V6A1,1,0,0,0,9,6V7H8A1,1,0,0,0,8,9H9v6H8a1,1,0,0,0,0,2H9v1a1,1,0,0,0,2,0V17h1v1a1,1,0,0,0,2,0V17a3,3,0,0,0,3-3,3,3,0,0,0-.77-2A3,3,0,0,0,17,10,3,3,0,0,0,14,7Zm0,8H11V13h3a1,1,0,0,1,0,2Zm0-4H11V9h3a1,1,0,0,1,0,2Z"/>
+            </svg>
+          </span>
+          <h5>Music</h5>
+          <p>Where the borrower(s) fail to honour his/her obligation on due date,</p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9,9,0,0,1,12,21ZM14,7V6a1,1,0,0,0-2,0V7H11V6A1,1,0,0,0,9,6V7H8A1,1,0,0,0,8,9H9v6H8a1,1,0,0,0,0,2H9v1a1,1,0,0,0,2,0V17h1v1a1,1,0,0,0,2,0V17a3,3,0,0,0,3-3,3,3,0,0,0-.77-2A3,3,0,0,0,17,10,3,3,0,0,0,14,7Zm0,8H11V13h3a1,1,0,0,1,0,2Zm0-4H11V9h3a1,1,0,0,1,0,2Z"/>
+            </svg>
+          </span>
+          <h5>Business</h5>
+          <p>Where the borrower(s) fail to honour his/her obligation on due date,</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- END CATEGORIES SECTIONS-->
+
+
+  <!-- POPULAR COURSES -->
+  <section class="courses">
+    <h2>Our Popular Courses</h2>
+    <div class="container courses__container">
+      <article class="course">
+        <div class="course__image">
+          <img src="./images/course1.jpg" alt="">
+          <div class="course__info">
+            <h4>Responsive Social Media Website UI Design</h4>
+            <p>
+              Where the borrower(s) fails to honour his/her obligation on due date,
+              the lender can offset the outstanding loan amount with the accrued interest
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="course">
+        <div class="course__image">
+          <img src="./images/course2.jpg" alt="">
+          <div class="course__info">
+            <h4>Responsive Admin Dashboard UI</h4>
+            <p>
+              Where the borrower(s) fails to honour his/her obligation on due date,
+              the lender can offset the outstanding loan amount with the accrued interest
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="course">
+        <div class="course__image">
+          <img src="./images/course3.jpg" alt="">
+          <div class="course__info">
+            <h4>Responsive SmartHome Website</h4>
+            <p>
+              Where the borrower(s) fails to honour his/her obligation on due date,
+              the lender can offset the outstanding loan amount with the accrued interest
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- END POPULAR COURSES -->
+
+
+  <!-- FREQUENTLY ASKED QUESTIONS (FAQs) -->
+  <section class="faqs">
+    <h2>Frequently Asked Questions</h2>
+    <div class="container faqs__container">
+      <article class="faq">
+        <div class="faq__icon">
+          <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            enable-background="new 0 0 50 50"
+            height="30px" 
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 50 50"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect fill="none" height="50" width="50"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="9" x2="41" y1="25" y2="25"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="25" x2="25" y1="9" y2="41"/>
+          </svg>
+        </div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon">
+          <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            enable-background="new 0 0 50 50"
+            height="30px" 
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 50 50"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect fill="none" height="50" width="50"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="9" x2="41" y1="25" y2="25"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="25" x2="25" y1="9" y2="41"/>
+          </svg>
+        </div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon">
+          <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            enable-background="new 0 0 50 50"
+            height="30px" 
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 50 50"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect fill="none" height="50" width="50"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="9" x2="41" y1="25" y2="25"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="25" x2="25" y1="9" y2="41"/>
+          </svg>
+        </div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon">
+          <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            enable-background="new 0 0 50 50"
+            height="30px" 
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 50 50"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect fill="none" height="50" width="50"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="9" x2="41" y1="25" y2="25"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="25" x2="25" y1="9" y2="41"/>
+          </svg>
+        </div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon">
+          <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            enable-background="new 0 0 50 50"
+            height="30px" 
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 50 50"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect fill="none" height="50" width="50"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="9" x2="41" y1="25" y2="25"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="25" x2="25" y1="9" y2="41"/>
+          </svg>
+        </div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon">
+          <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            enable-background="new 0 0 50 50"
+            height="30px" 
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 50 50"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect fill="none" height="50" width="50"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="9" x2="41" y1="25" y2="25"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="25" x2="25" y1="9" y2="41"/>
+          </svg>
+        </div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon">
+          <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            enable-background="new 0 0 50 50"
+            height="30px" 
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 50 50"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect fill="none" height="50" width="50"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="9" x2="41" y1="25" y2="25"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="25" x2="25" y1="9" y2="41"/>
+          </svg>
+        </div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon">
+          <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            enable-background="new 0 0 50 50"
+            height="30px" 
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 50 50"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect fill="none" height="50" width="50"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="9" x2="41" y1="25" y2="25"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="25" x2="25" y1="9" y2="41"/>
+          </svg>
+        </div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon">
+          <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            enable-background="new 0 0 50 50"
+            height="30px" 
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 50 50"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect fill="none" height="50" width="50"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="9" x2="41" y1="25" y2="25"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="25" x2="25" y1="9" y2="41"/>
+          </svg>
+        </div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon">
+          <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            enable-background="new 0 0 50 50"
+            height="30px" 
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 50 50"
+            width="30px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect fill="none" height="50" width="50"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="9" x2="41" y1="25" y2="25"/>
+            <line fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="4" x1="25" x2="25" y1="9" y2="41"/>
+          </svg>
+        </div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- END FREQUENTLY ASKED QUESTIONS (FAQs) -->
+
+
+  <!-- TESTIMONIALS -->
+  <section class="container testimonial__container mySwiper">
+    <h2>Students' Testimonials</h2>
+    <div class="swiper-wrapper">
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./images/avatar1.jpg" alt="avatar1">
+        </div>
+        <div class="testimonial__info">
+          <h5>Diana Ayi</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./images/avatar2.jpg" alt="avatar1">
+        </div>
+        <div class="testimonial__info">
+          <h5>Diana Ayi</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./images/avatar3.jpg" alt="avatar1">
+        </div>
+        <div class="testimonial__info">
+          <h5>Diana Ayi</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./images/avatar4.jpg" alt="avatar1">
+        </div>
+        <div class="testimonial__info">
+          <h5>Diana Ayi</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./images/avatar5.jpg" alt="avatar1">
+        </div>
+        <div class="testimonial__info">
+          <h5>Diana Ayi</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            Where the borrower(s) fails to honour his/her obligation on due date,
+            the lender can offset the outstanding loan amount with the accrued interest
+            charges from any funds that the borrower may have n Nigerian bank using his/her
+          </p>
+        </div>
+      </article>
+    </div>
+    <div class="swiper-pagination"></div>
+  </section>
+  <!-- END OF TESTIMONIALS -->
+
+
+  <!-- FOOTER SECTION -->
+  <footer>
+    <div class="container footer__container">
+      <div class="footer__1">
+        <a href="index.html" class="footer__logo"><h4>EGATOR</h4></a>
+        <p>
+          Where the borrower(s) fails to honour his/her obligation on due date
+        </p>
+      </div>
+
+      <div class="footer__2">
+        <h4>Permalinks</h4>
+
+        <ul class="permalinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__3">
+        <h4>Privacy</h4>
+
+        <ul class="privacy">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__4">
+        <h4>Contact us</h4>
+        <div>
+          <p>+2347033390533</p>
+          <p>okponobiemmanuel@gmail.com</p>
+        </div>
+
+        <ul class="footer__social">
+          <li>
+            <a><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a><i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__copyright">
+      <small>Copyright &copy; EGATOR Tutorial</small>
+    </div>
+  </footer>
+  <!-- END OF FOOTER SECTION -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./main.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      // When window width id >= 600
+      breakpoints: {
+        600: {
+        slidesPerView: 2,
+        }
+      }
+    });
+  </script>
+</body>
+</html>
